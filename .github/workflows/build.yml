@@ -1,0 +1,24 @@
+name: Build deb
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Prep
+        run: |
+          npm install
+          node index.js
+
+      - name: Build
+        run: bash build.sh
+      
+      - name: Upload
+        uses: actions/upload-artifact@v3
+        with:
+          name: godot-stable-v3.5.1-mono.deb
+          path: godot-stable-v3.5.1-mono.deb
