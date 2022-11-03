@@ -1,0 +1,13 @@
+Package: godot
+Version: 3.5.1
+Homepage: https://godotengine.org/
+Architecture: amd64
+Maintainer: Godot Engine Authors
+Description: Godot Engine is a feature-packed, cross-platform game engine
+    to create 2D and 3D games from a unified interface. It provides a
+    comprehensive set of common tools, so that users can focus on making
+    games without having to reinvent the wheel. Games can be exported
+    with one click to a number of platforms, including the major desktop
+    platforms (Linux, macOS, Windows), mobile platforms (Android, iOS), as
+    well as Web-based platforms and consoles.
+Depends: dotnet-sdk-6.0, aspnetcore-runtime-6.0, dotnet-runtime-6.0

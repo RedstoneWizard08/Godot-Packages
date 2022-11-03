@@ -1,0 +1,13 @@
+node_modules
+templates
+Godot_*
+
+*.zip
+*.deb
+*.tpz
+
+deb/etc/godot/*
+deb/usr/bin/*
+
+!deb/etc/godot/.gitkeep
+!deb/usr/bin/.gitkeep

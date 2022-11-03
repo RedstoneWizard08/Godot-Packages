@@ -1,0 +1,5 @@
+#!/bin/bash
+
+[[ ! -d "$HOME/.local/share/godot" ]] && mkdir -p "$HOME/.local/share/godot"
+
+cp -rf /etc/godot/templates "$HOME/.local/share/godot"
